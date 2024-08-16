@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Thoughts", link: "#thoughts" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -79,7 +79,7 @@ export const navItems = [
       des: "TripIdea is a React-built website helps customers plan trips by providing geographic filters based on their tastes, such as beaches, mountains, and places of worship in the cities of their choice",
       img: "/p1.png",
       iconLists: ["/re.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/ShubhamSharma2509/Tripidea-Website.git",
+      link: "https://tripidea-website.vercel.app/",
     },
     {
       id: 2,

@@ -1,12 +1,12 @@
 
 import Certificates from "@/components/Certificates";
-import Clients from "@/components/Clints";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/ui/Grid";
 import RecentProjects from "@/components/ui/RecentProjects";
 import { navItems } from "@/data";
+import Thoughts from "@/components/Thoughts";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <Grid/>
         <Certificates />
         <RecentProjects />
-        <Clients />
+        <Thoughts />
         <Footer />
       </div>
     </main>

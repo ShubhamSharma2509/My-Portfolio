@@ -50,10 +50,9 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists1 = ["Mongo-DB", "Express","ReactJS", "Node-js"];
-  const leftLists2 = ["Java", "Python", "C Programming","C++ Programming"];
-  const rightLists1 = ["C # Programming", "JavaScript", "TypeScript"];
-  const rightLists2 = ["My-SQL", "RDBMS", "NoSQL-DB"];
+  const leftLists1 = ["Mongo-DB", "Express","ReactJS", "Node-js","My-SQL"];
+  const leftLists2 = ["Java", "Python", "C Programming","C++ Programming", "RDBMS"];
+  const rightLists1 = ["C # Programming", "JavaScript", "TypeScript", "NoSQL-DB"];
 
   const [copied, setCopied] = useState(false);
 
@@ -136,7 +135,7 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {id === 5 && (
-            <div className="flex gap-1 lg:gap-10 w-fit  lg:-center-2">
+            <div className="flex gap-1 lg:gap-10  lg:-center-2">
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists1.map((item, i) => (
                   <span
@@ -163,18 +162,6 @@ export const BentoGridItem = ({
 
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {rightLists1.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {rightLists2.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 

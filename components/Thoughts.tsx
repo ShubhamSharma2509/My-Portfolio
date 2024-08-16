@@ -5,9 +5,9 @@ import React from "react";
 import { companies, quotes } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
-const Clients = () => {
+const Thoughts = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="thoughts" className="py-20">
       <h1 className="heading">
         Some of the
         <span className="text-purple"> motivational quotes</span>
@@ -43,4 +43,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default Thoughts;
